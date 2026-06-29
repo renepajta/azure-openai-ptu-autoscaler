@@ -13,7 +13,7 @@ This is useful when quota is approved but a resize fails because the selected re
 5. Uses `Retry-After`, `retry-after-ms`, and jittered exponential backoff for 408/409/429/5xx responses.
 6. Uses a local lock file to avoid overlapping scheduled runs.
 
-Capacity is still not guaranteed. This automates the polling and resize attempt, but UAT/support escalation remains the right parallel path for persistent regional shortages.
+Capacity is still not guaranteed. This automates the polling and resize attempt.
 
 ## Prerequisites
 
